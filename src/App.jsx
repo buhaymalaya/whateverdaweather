@@ -8,6 +8,8 @@ const App = () => {
   const [country, setCountry] = useState('');
   const [unit, setUnit] = useState('metric');
 
+  // edit spotify insert for mobile
+  
   const apiKey = import.meta.env.VITE_OPENWEATHERMAP_API_KEY;
   const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
